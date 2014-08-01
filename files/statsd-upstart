@@ -17,5 +17,5 @@ setgid nogroup
 
 script
     . /etc/default/statsd
-    exec /usr/bin/node $STATSJS $STATSD_CONFIG >> $STATSD_LOGFILE
+    exec /usr/bin/nodejs $STATSJS $STATSD_CONFIG >> $STATSD_LOGFILE
 end script
