@@ -9,10 +9,6 @@
   "project_page": "https://github.com/justindowning/puppet-statsd",
   "dependencies": [
     {
-      "name": "puppetlabs/nodejs",
-      "version_requirement": ">= 0.2.0"
-    },
-    {
       "name": "puppetlabs/stdlib",
       "version_requirement": ">= 4.1.0"
     }
