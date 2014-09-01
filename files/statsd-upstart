@@ -12,7 +12,10 @@ start on (local-filesystems and net-device-up IFACE!=lo)
 respawn
 respawn limit 10 5
 
+setuid nobody
+setgid nogroup
+
 script
     . /etc/default/statsd
-    exec /usr/bin/node $STATSJS $STATSD_CONFIG >> $STATSD_LOGFILE
+    exec /usr/bin/nodejs $STATSJS $STATSD_CONFIG >> $STATSD_LOGFILE
 end script

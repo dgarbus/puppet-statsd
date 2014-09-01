@@ -1,6 +1,6 @@
 {
   "name": "jdowning/statsd",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "source": "https://github.com/justindowning/puppet-statsd",
   "author": "Justin Downing",
   "license": "Apache License, Version 2.0",
@@ -9,8 +9,8 @@
   "project_page": "https://github.com/justindowning/puppet-statsd",
   "dependencies": [
     {
-      "name": "puppetlabs/nodejs",
-      "version_requirement": ">= 0.2.0"
+      "name": "puppetlabs/stdlib",
+      "version_requirement": ">= 4.1.0"
     }
   ],
   "operatingsystem_support": [
